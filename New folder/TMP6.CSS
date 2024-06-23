@@ -1,0 +1,130 @@
+body {
+    background-image: url(Web\ capture_2-9-2023_13149_.jpeg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    width: 380px;
+    height: 570px;
+    margin: 50px auto ;
+    background-color: white;
+    box-shadow: 0px 1px 10px black;
+    border-radius: 20px;
+}
+.up{
+    background-image: url(Web\ capture_2-9-2023_131647_.jpeg);
+    background-size: cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    
+}
+.down h2{
+text-align: center;
+margin-top: 30px;
+margin-bottom: 0px;
+}
+.para1{
+    text-align: center;
+    font-size: 15px;
+    color: hsl(224, 23%, 55%) ;
+
+}
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(224, 23%, 55%);
+}
+
+.prix {
+    margin-right: 60px;
+   display:grid;
+   grid-template-rows: 30px 30px;
+   padding-bottom: 20px;
+  
+}
+.prix p:nth-child(2) {
+    color: hsl(224, 23%, 55%) ;
+}
+ .price a:hover {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.715) ;
+   
+} 
+.price {
+    width: 280px;
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: hsl(225, 100%, 98%);
+    margin: 25px auto 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.btn{
+    width: 320px;
+    height: 50px;
+    margin: 20px auto 10px ;
+    background-color:  hsl(245, 75%, 52%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+
+}
+.btn:hover{
+    background-color:  hsla(245, 75%, 52%, 0.715) ;
+}
+.cancel {
+    width: 320px;
+    height: 60px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(224, 23%, 55%) ;
+}
+.cancel:hover{
+    color: black ;
+}
+@media (max-width:768px) {
+    .card {
+        width: 350px;
+        height: 650px;
+        margin: 20px auto ;
+    }
+    .up{
+    
+        background-size: cover;
+    background-position: center;
+        
+    }
+    .btn{
+        margin: 20px auto;
+    }
+    .price {
+        margin: 30px auto;
+    }
+    body {
+        background-image: none;
+    }
+}
+
+@media (max-width:375px) {
+body{
+    display: none;
+}
+}
